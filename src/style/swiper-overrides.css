@@ -1,0 +1,22 @@
+/* @layer components {
+    .swiper-pagination-bullet {
+      @apply w-4 h-4 bg-gray-400 rounded-full mx-1;
+    }
+  
+    .swiper-pagination-bullet-active {
+      @apply bg-blue-500;
+    }
+  } */
+  .swiper-pagination-bullet {
+    background-color: rgb(215, 204, 204) !important; /* Set the bullet color to black */
+    width: 0.5rem; /* Set width */
+    height: 0.5rem; /* Set height */
+    border-radius: 9999px; /* Fully rounded bullets */
+    margin: 0 0.25rem; /* Add spacing between bullets */
+  }
+  
+  /* Optional: Style active bullet differently */
+  .swiper-pagination-bullet-active {
+    background-color: white !important; /* Set the active bullet color */
+    transform: scale(1); /* Enlarge active bullet */
+  }
